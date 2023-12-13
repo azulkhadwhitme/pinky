@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    text-decoration: none;
+    text-align: center;
+}
+body {
+    background-image: url('fondo3.jpg');
+
+}
+.titulo {
+    font-size: 20px;
+    width: 100%;
+    padding: 40px;
+    margin: auto;
+    background-color:#48e;
+    color: white;
+}
+    
+h4 {
+    color: black;
+    font-size: 37px;
+    text-align: center;
+}
+h5 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+h6 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #48e;
+    color: white;
+    
+    
+}
+nav li {
+    display: inline-flex;
+    color: white;
+    
+}
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+nav ul a:hover {
+    background-color: #0a476b;
+    color: white;
+}
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenido .articulos {
+    width: 70%;
+    margin: auto;
+}
+.contenido .articulos div {
+    width: 90%;
+    height: 600px;
+    padding: 15px;
+    background-color: #184ea3;
+    box-shadow: 7px 13px 37px #000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.contenido .articulos img {
+    width: 400px;
+    border-radius: 10px;
+}
+.contenido .secundario {
+    width: 30%;
+}
+.contenido .secundario p {
+background-color: #0a476b;
+border-radius: 15px;
+padding: 20px;
+height: 600px;
+box-shadow: 7px 13px 37px #000;
+color: white;
+
+}
